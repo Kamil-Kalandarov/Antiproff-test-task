@@ -1,70 +1,49 @@
-# Getting Started with Create React App
+**<h1 align='center'>Antiproff-test-task</h1>**
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## **Оглавление:**
+- [Функциональность](#functionality);
+- [Стек технологий](#techologies);
+- [Установка](#getting-started); 
+- [Планы по доработке](#will-do);
+- [Demo](#demo-link);
+- [Мои контакты](#contacts);https://reqres.in/
 
-## Available Scripts
+## <a name='functionality'>**Функциональность:**</a>
+- реигистрация (однако при создании проекта использовалось API <a name="api-link">[ReqRes](https://reqres.in/)</a> и регистрироваться можно только по email (eve.holt@reqres.in) адресу указанному в их документации, другой email не поддерживается);
+- вход в личный кабинет (ситуация с email такая же);
+- настроена валидация полей ввода;
+- просмотр всех сотрудников;
+- роутинг на страницу с детальной информацией по каждому сотруднику;
+- выход из системы, с последующим удалением токена из localStorage.
 
-In the project directory, you can run:
+## <a name='techologies'>**Стек технологий:**</a>
+<img src="https://img.shields.io/badge/JavaScript-696969?style=for-the-badge&logo=JavaScript&logoColor=#F7DF1E"> <img src="https://img.shields.io/badge/React-696969?style=for-the-badge&logo=React&logoColor=#F7DF1E"> <img src="https://img.shields.io/badge/Redux-696969?style=for-the-badge&logo=Redux&logoColor=#F7DF1E"> <img src="https://img.shields.io/badge/React Router-696969?style=for-the-badge&logo=React Router&logoColor=#F7DF1E"> <img src="https://img.shields.io/badge/HTML-696969?style=for-the-badge&logo=HTML5&logoColor=#F7DF1E"> <img src="https://img.shields.io/badge/CSS3-696969?style=for-the-badge&logo=CSS3&logoColor=blue"> <img src="https://img.shields.io/badge/CSS Modules-696969?style=for-the-badge&logo=CSS Modules&logoColor=#F7DF1E"> <img src="https://img.shields.io/badge/npm-696969?style=for-the-badge&logo=npm&logoColor=#F7DF1E"> <img src="https://img.shields.io/badge/github-696969?style=for-the-badge&logo=github&logoColor=#F7DF1E">
 
-### `npm start`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## <a name='getting-started'>**Установка:**</a>
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- клонируйте себе репозиторий, введя в терминале:
+  ``` 
+  git clone https://github.com/Kamil-Kalandarov/Antiproff-test-task
+  ```
+- введите в терминале команду: 
+  ``` 
+  npm install
+  ```
+- после того как установятся все необходимые зависимости, введите в терминале команду:
+- ``` 
+  npm start
+  ```
+- тестируйте!
 
-### `npm test`
+## <a name='will-do'>**Планы по доработке:**</a>
+- использовать другое API с возможность добавления лайков и изменения данных пользователей.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## <a name="demo-link">**ссылка на Demo проекта** [Antiproff-test-task](https://kamil-kalandarov.github.io/Antiproff-test-task/)</a>
 
-### `npm run build`
+## <a name='contacts'>**Мои контакты:**</a>
+[<img src="https://img.shields.io/badge/Telegram-696969?style=for-the-badge&logo=Telegram&logoColor=#F7DF1E">](https://t.me/Kamil_Kalandarov) 
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+[<img src="https://img.shields.io/badge/VK-696969?style=for-the-badge&logo=VK&logoColor=#F7DF1E">](https://vk.com/default1313)
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Адрес электронной почты: iam@kalandarov-13.ru
