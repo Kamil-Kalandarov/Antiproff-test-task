@@ -1,0 +1,43 @@
+.user {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 32px;
+  color: #ffffff;
+  padding: 39px 0;
+}
+
+@media screen and (max-width: 650px) {
+  .user {
+    flex-direction: column-reverse;
+    padding: 12px 0 0;
+  }
+}
+
+.user__avatar {
+  border-radius: 50%;
+  width: 187px;
+  height: 187px;
+}
+
+@media screen and (max-width: 650px) {
+  .user__title {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+.user__firsName {
+  font-size: 64px;
+  font-weight: 400;
+  line-height: 75px;
+  margin: 0;
+}
+
+.user__lastName {
+  font-size: 32px;
+  font-weight: 400;
+  line-height: 38px;  
+  margin: 0;
+}

@@ -1,0 +1,22 @@
+.registerPage {
+  display: grid;
+  grid-template-rows: 0.5fr 1fr;
+  justify-items: center;
+}
+
+.registerPage__form {
+  width: 500px;
+  height: 519px;
+  box-shadow: 0 0 1px 2px #33333326;
+  border-radius: 5px;
+}
+
+.registerPage__link {
+  color: #512689;
+  text-decoration: none;
+  padding-left: 8px;
+}
+
+.registerPage__link:hover {
+  opacity: 0.5;
+}

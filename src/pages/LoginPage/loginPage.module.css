@@ -1,0 +1,16 @@
+.loginPage {
+  font-family: 'Roboto';
+  display: grid;
+  grid-template-rows: 0.5fr 1fr;
+  justify-items: center;
+}
+
+.loginPage__link {
+  color: #512689;
+  text-decoration: none;
+  padding-left: 8px;
+}
+
+.loginPage__link:hover {
+  opacity: 0.5;
+}
